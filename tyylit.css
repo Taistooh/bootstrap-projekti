@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+    --teksti: #333;
+    --teksti-vaalea: #eee;
+    --tausta: #eee;
+    --tumma: #202020;
+    --korostus: #fb8b24;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    font-family:"Lato", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin:0;
+    padding:0;
+    background-color: var(--tausta);
+    color: var(--teksti);
+    line-height: 1.6;
+}
+header {
+    background-image:url("kuvat/oranssi_taustakuva.webp");
+    height: 150px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    text-align: center;
+}
+header h1 {
+    color: var(--korostus);
+    font-weight: 300;
+    margin:20px 10px;
+}
+header nav {
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+header nav a {
+    color: var(--korostus);
+    background-color: var(--tumma);
+    border:2px solid var(--tumma);
+    border-radius: 20px;
+    padding: 3px 10px;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.navi a:hover {
+    color: #202020;
+    background-color: var(--korostus);
+    border:2px solid var(--korostus);
+}
+
+img {
+    width:100%;
+}
+
+main {
+    font-size: 1em;
+    line-height: 1em;
+    padding-top: 150px;
+}
+section {
+    max-width: 1100px;
+    width: 70%;
+    margin: 20px auto
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 50px;
+}
+
+li {
+    margin: 16px;
+}
+
+.ingressi {
+    color: var(--teksti);
+    font-style: italic;
+}
+.ingressi > h2 {
+    font-size: 1.5em;
+    font-style: normal;
+    padding: 10px;
+}
+main > h1 {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    color: var(--teksti);
+    border-bottom: 5px solid var(--korostus);
+
+}
+h2 {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    padding: 10px;
+ }
+
+.content {
+    font-size: 1em;
+    line-height: 1em;
+}
+.content p {
+    margin-bottom: 10px;
+}
+
+.otsikot {
+    display: block;
+    width: 100%;
+    justify-content: center;
+    line-height: 1.5em;
+    text-align: center;
+    padding: 5px 5px;
+    margin:10px auto;
+    background-color: var(--teksti);
+    color: var(--korostus);
+    border: var(--teksti);
+    border-radius: 30px;
+ }
+
+ .osiot p {
+    display: block;
+    padding: 5px;
+    border-bottom: 2px solid var(--korostus);
+ }
+
+ footer {
+    background-color: var(--tumma);
+    color: var(--teksti-vaalea);
+    padding: 20px;
+    text-align:center;
+    font-size: 1em;
+    margin-top: auto;
+ }
