@@ -8,37 +8,47 @@
 </head>
 <body>
     <header>
-        <h1 class="text-center">Tieto- ja viestintätekniikan perustutkinto</h1>
-            <nav>
-                <ul>
-                    <a href="index.html">Etusivu</a>
-                    <a href="tutkinnon-rakenne.html">Tutkinnon muodostuminen</a>
-                    <a href="tutkinnonosat.html">Tutkinnonosat</a>
-                    <a href="kriteerit.html">Kriteerit</a>
-                    <a href="arviointi.html">Arviointi</a>
-                </ul>
-            </nav>
+        <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+                <div class="navbar-brand d-flex flex-row">Tieto- ja viestintätekniikan perustutkinto</div>
+                    <div class="d-flex flex-row-reverse">
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                            <a class="nav-link" href="index.html">Etusivu</a>
+                            <a class="navbar-brand active" aria-current="page" href="tutkinnon-rakenne.html">Tutkinnon muodostuminen</a>
+                            <a class="nav-link" href="tutkinnonosat.html">Tutkinnonosat</a>
+                            <a class="nav-link" href="kriteerit.html">Kriteerit</a>
+                            <a class="nav-link" href="arviointi.html">Arviointi</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </nav>
     </header>
 
-    <main>
-        <section>
-        <h2 class="display-6 text-center"><strong>Tutkinnon muodostuminen</strong></h2>
-            <p class="lead text-center">Tieto- ja viestintätekniikan perustutkinnon laajuus on 180 osaamispistettä. Tutkinto muodostuu ammatillisista tutkinnon osista 
-            <em>(145 osaamispistettä)</em> ja yhteisistä tutkinnon osista <em>(35 osaamispistettä)</em>.
-            Ammatillisista tutkinnon osista pakollisia on 70—115 osaamispistettä ja valinnaisia 30—75 osaamispistettä. </p>
-        </section>
-        <section>
-            <h2 class="display-6 text-center">Tieto- ja viestintätekniikan perustutkinto sisältää seuraavat tutkintonimikkeet:</h2>
-                <div class="text-center">     
-                    <p><em><strong>Elektroniikka-asentaja</strong></em></p>
-                    <p><em><strong>Hyvinvointiteknologia-asentaja</strong></em></p>
-                    <p><em><strong>Tietoverkkoasentaja</strong></em></p>
-                    <p><em><strong>IT-tukihenkilö</strong></em></p>
-                    <p><em><strong>Ohjelmistokehittäjä</strong></em></p>
-                </div>   
-        </section>
-    </main>
-    <footer>
+    <div class="container">
+        <main>
+            <h2 class="display-6 text-center bg-secondary text-white p-3 rounded-5 mt-2"><strong>Tutkinnon muodostuminen</strong></h2>
+            <section>
+                <p class="lead text-center p-3">Tieto- ja viestintätekniikan perustutkinnon laajuus on 180 osaamispistettä. Tutkinto muodostuu ammatillisista tutkinnon osista
+                <em>(145 osaamispistettä)</em> ja yhteisistä tutkinnon osista <em>(35 osaamispistettä)</em>.
+                Ammatillisista tutkinnon osista pakollisia on 70—115 osaamispistettä ja valinnaisia 30—75 osaamispistettä. </p>
+            </section>
+            <div class="row">
+                <div class="col"><img src="kuvat/elektoriikka-asentaja.webp"></div>
+                <div class="col">
+                    <h4 class="p-3"><b>Tieto- ja viestintätekniikan perustutkinto sisältää seuraavat tutkintonimikkeet:</b></h4>      
+                        <p><em><strong>Elektroniikka-asentaja</strong></em></p>
+                        <p><em><strong>Hyvinvointiteknologia-asentaja</strong></em></p>
+                        <p><em><strong>Tietoverkkoasentaja</strong></em></p>
+                        <p><em><strong>IT-tukihenkilö</strong></em></p>
+                        <p><em><strong>Ohjelmistokehittäjä</strong></em></p>              
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer class="bg-dark text-white mt-auto">
         <p class="text-center"><em>Datamonnit&copy;</em></p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
